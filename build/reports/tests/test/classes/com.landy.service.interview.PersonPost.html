@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - PersonPost</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>PersonPost</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.landy.service.interview.html">com.landy.service.interview</a> &gt; PersonPost</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">3</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.849s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">Should insert a new person and apply jpa auditing()</td>
+<td class="success">0.027s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Should insert a new person with address()</td>
+<td class="success">0.056s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Should insert a new person without address()</td>
+<td class="success">0.766s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2021-07-27T13:25:43.043Z] [org.springframework.test.context.support.AbstractTestContextBootstrapper] [Test worker] [305] [INFO ] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.landy.service.interview.PersonPost], using SpringBootContextLoader
+[2021-07-27T13:25:43.043Z] [org.springframework.test.context.support.AbstractContextLoader] [Test worker] [264] [INFO ] Could not detect default resource locations for test class [com.landy.service.interview.PersonPost]: no resource found for suffixes {-context.xml, Context.groovy}.
+[2021-07-27T13:25:43.043Z] [org.springframework.test.context.support.AnnotationConfigContextLoaderUtils] [Test worker] [83] [INFO ] Could not detect default configuration classes for test class [com.landy.service.interview.PersonPost]: PersonPost does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+[2021-07-27T13:25:43.043Z] [org.springframework.boot.test.context.SpringBootTestContextBootstrapper] [Test worker] [238] [INFO ] Found @SpringBootConfiguration com.landy.service.interview.ServiceInterviewApplication for test class com.landy.service.interview.PersonPost
+[2021-07-27T13:25:43.043Z] [org.springframework.test.context.support.AbstractTestContextBootstrapper] [Test worker] [245] [INFO ] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+[2021-07-27T13:25:43.043Z] [org.springframework.test.context.support.AbstractTestContextBootstrapper] [Test worker] [174] [INFO ] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@38e68554, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@11cee229, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@5fa66821, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3f02f88, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@f30d687, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6909b2e2, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5023882, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@78ccbc5, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@e01b15d, org.springframework.test.context.event.EventPublishingTestExecutionListener@2abb9cdd, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@3ee96720, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5fda51db, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5cd29824, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2af9ba17, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5f5c080f, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@5205deb6, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1ade7f6a]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.5.1)
+
+[2021-07-27T13:25:44.044Z] [org.springframework.boot.StartupInfoLogger] [Test worker] [55] [INFO ] Starting PersonPost using Java 11.0.12 on akhils-MBP with PID 44712 (started by akhilkaparthi in /Users/akhilkaparthi/Documents/ws-3/kotlintest)
+[2021-07-27T13:25:44.044Z] [org.springframework.boot.SpringApplication] [Test worker] [659] [INFO ] No active profile set, falling back to default profiles: default
+[2021-07-27T13:25:45.045Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [Test worker] [132] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2021-07-27T13:25:45.045Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [Test worker] [201] [INFO ] Finished Spring Data repository scanning in 62 ms. Found 3 JPA repository interfaces.
+[2021-07-27T13:25:46.046Z] [com.zaxxer.hikari.HikariDataSource] [Test worker] [110] [INFO ] HikariPool-1 - Starting...
+[2021-07-27T13:25:46.046Z] [com.zaxxer.hikari.HikariDataSource] [Test worker] [123] [INFO ] HikariPool-1 - Start completed.
+[2021-07-27T13:25:46.046Z] [org.hibernate.jpa.internal.util.LogHelper] [Test worker] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2021-07-27T13:25:46.046Z] [org.hibernate.Version] [Test worker] [44] [INFO ] HHH000412: Hibernate ORM core version 5.4.32.Final
+[2021-07-27T13:25:46.046Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [Test worker] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2021-07-27T13:25:46.046Z] [org.hibernate.dialect.Dialect] [Test worker] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[2021-07-27T13:25:47.047Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [Test worker] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2021-07-27T13:25:47.047Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [Test worker] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2021-07-27T13:25:47.047Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [Test worker] [219] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2021-07-27T13:25:49.049Z] [org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration] [Test worker] [68] [INFO ] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:mydb'
+[2021-07-27T13:25:50.050Z] [org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration] [Test worker] [86] [INFO ] 
+
+Using generated security password: b225bb7a-7666-491c-8824-113aed98f5e7
+
+[2021-07-27T13:25:50.050Z] [org.springframework.security.web.DefaultSecurityFilterChain] [Test worker] [51] [INFO ] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@59fcb840, org.springframework.security.web.context.SecurityContextPersistenceFilter@7a141be0, org.springframework.security.web.header.HeaderWriterFilter@6a50423f, org.springframework.security.web.authentication.logout.LogoutFilter@9615d8e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@53457e40, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3267ae77, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2a642272, org.springframework.security.web.session.SessionManagementFilter@11e5fff6, org.springframework.security.web.access.ExceptionTranslationFilter@5987f138, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@12b8b0ec]
+[2021-07-27T13:25:50.050Z] [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] [Test worker] [58] [INFO ] Exposing 2 endpoint(s) beneath base path ''
+[2021-07-27T13:25:50.050Z] [org.springframework.boot.StartupInfoLogger] [Test worker] [61] [INFO ] Started PersonPost in 6.875 seconds (JVM running for 8.344)
+[2021-07-27T13:25:51.051Z] [org.springframework.mock.web.MockServletContext] [Test worker] [455] [INFO ] Initializing Spring TestDispatcherServlet ''
+[2021-07-27T13:25:51.051Z] [org.springframework.web.servlet.FrameworkServlet] [Test worker] [525] [INFO ] Initializing Servlet ''
+[2021-07-27T13:25:51.051Z] [org.springframework.web.servlet.FrameworkServlet] [Test worker] [547] [INFO ] Completed initialization in 2 ms
+LANDY TEST: Cleaning the data
+LANDY TEST: Preparing test data
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /api/v1/persons
+       Parameters = {}
+          Headers = [Content-Type:&quot;application/json&quot;, Accept:&quot;application/json&quot;, Content-Length:&quot;58&quot;]
+             Body = &lt;no character encoding set&gt;
+    Session Attrs = {SPRING_SECURITY_CONTEXT=SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=admin, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, credentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN, ROLE_USER]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN, ROLE_USER]]]}
+
+Handler:
+             Type = com.landy.service.interview.controller.PersonController
+           Method = com.landy.service.interview.controller.PersonController#createPerson(PersonDto, HttpServletResponse)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:&quot;text/plain;charset=UTF-8&quot;, X-Content-Type-Options:&quot;nosniff&quot;, X-XSS-Protection:&quot;1; mode=block&quot;, Cache-Control:&quot;no-cache, no-store, max-age=0, must-revalidate&quot;, Pragma:&quot;no-cache&quot;, Expires:&quot;0&quot;, X-Frame-Options:&quot;DENY&quot;]
+     Content type = text/plain;charset=UTF-8
+             Body = {&quot;id&quot;:3,&quot;createdBy&quot;:&quot;user&quot;,&quot;createdDate&quot;:{&quot;seconds&quot;:1627388751,&quot;nanos&quot;:474000000},&quot;lastModifiedBy&quot;:&quot;user&quot;,&quot;lastModifiedDate&quot;:{&quot;seconds&quot;:1627388751,&quot;nanos&quot;:474000000},&quot;name&quot;:&quot;Suze Orman&quot;,&quot;gender&quot;:&quot;FEMALE&quot;,&quot;placeOfBirth&quot;:{&quot;id&quot;:2,&quot;name&quot;:&quot;Paris&quot;},&quot;addressList&quot;:[]}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+[2021-07-27T13:25:51.051Z] [org.springframework.mock.web.MockServletContext] [Test worker] [455] [INFO ] Initializing Spring TestDispatcherServlet ''
+[2021-07-27T13:25:51.051Z] [org.springframework.web.servlet.FrameworkServlet] [Test worker] [525] [INFO ] Initializing Servlet ''
+[2021-07-27T13:25:51.051Z] [org.springframework.web.servlet.FrameworkServlet] [Test worker] [547] [INFO ] Completed initialization in 1 ms
+LANDY TEST: Cleaning the data
+LANDY TEST: Preparing test data
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /api/v1/persons
+       Parameters = {}
+          Headers = [Content-Type:&quot;application/json&quot;, Accept:&quot;application/json&quot;, Content-Length:&quot;58&quot;]
+             Body = &lt;no character encoding set&gt;
+    Session Attrs = {SPRING_SECURITY_CONTEXT=SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=admin, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, credentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN, ROLE_USER]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN, ROLE_USER]]]}
+
+Handler:
+             Type = com.landy.service.interview.controller.PersonController
+           Method = com.landy.service.interview.controller.PersonController#createPerson(PersonDto, HttpServletResponse)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:&quot;text/plain;charset=UTF-8&quot;, X-Content-Type-Options:&quot;nosniff&quot;, X-XSS-Protection:&quot;1; mode=block&quot;, Cache-Control:&quot;no-cache, no-store, max-age=0, must-revalidate&quot;, Pragma:&quot;no-cache&quot;, Expires:&quot;0&quot;, X-Frame-Options:&quot;DENY&quot;]
+     Content type = text/plain;charset=UTF-8
+             Body = {&quot;id&quot;:4,&quot;createdBy&quot;:&quot;user&quot;,&quot;createdDate&quot;:{&quot;seconds&quot;:1627388751,&quot;nanos&quot;:608000000},&quot;lastModifiedBy&quot;:&quot;user&quot;,&quot;lastModifiedDate&quot;:{&quot;seconds&quot;:1627388751,&quot;nanos&quot;:608000000},&quot;name&quot;:&quot;Suze Orman&quot;,&quot;gender&quot;:&quot;FEMALE&quot;,&quot;placeOfBirth&quot;:{&quot;id&quot;:2,&quot;name&quot;:&quot;Paris&quot;},&quot;addressList&quot;:[]}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+[2021-07-27T13:25:51.051Z] [org.springframework.mock.web.MockServletContext] [Test worker] [455] [INFO ] Initializing Spring TestDispatcherServlet ''
+[2021-07-27T13:25:51.051Z] [org.springframework.web.servlet.FrameworkServlet] [Test worker] [525] [INFO ] Initializing Servlet ''
+[2021-07-27T13:25:51.051Z] [org.springframework.web.servlet.FrameworkServlet] [Test worker] [547] [INFO ] Completed initialization in 2 ms
+LANDY TEST: Cleaning the data
+LANDY TEST: Preparing test data
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /api/v1/persons
+       Parameters = {}
+          Headers = [Content-Type:&quot;application/json&quot;, Accept:&quot;application/json&quot;, Content-Length:&quot;158&quot;]
+             Body = &lt;no character encoding set&gt;
+    Session Attrs = {SPRING_SECURITY_CONTEXT=SecurityContextImpl [Authentication=UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=admin, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, credentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[ROLE_ADMIN, ROLE_USER]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN, ROLE_USER]]]}
+
+Handler:
+             Type = com.landy.service.interview.controller.PersonController
+           Method = com.landy.service.interview.controller.PersonController#createPerson(PersonDto, HttpServletResponse)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = [Content-Type:&quot;text/plain;charset=UTF-8&quot;, X-Content-Type-Options:&quot;nosniff&quot;, X-XSS-Protection:&quot;1; mode=block&quot;, Cache-Control:&quot;no-cache, no-store, max-age=0, must-revalidate&quot;, Pragma:&quot;no-cache&quot;, Expires:&quot;0&quot;, X-Frame-Options:&quot;DENY&quot;]
+     Content type = text/plain;charset=UTF-8
+             Body = {&quot;id&quot;:5,&quot;createdBy&quot;:&quot;user&quot;,&quot;createdDate&quot;:{&quot;seconds&quot;:1627388751,&quot;nanos&quot;:643000000},&quot;lastModifiedBy&quot;:&quot;user&quot;,&quot;lastModifiedDate&quot;:{&quot;seconds&quot;:1627388751,&quot;nanos&quot;:643000000},&quot;name&quot;:&quot;Suze Orman&quot;,&quot;gender&quot;:&quot;FEMALE&quot;,&quot;placeOfBirth&quot;:{&quot;id&quot;:2,&quot;name&quot;:&quot;Paris&quot;},&quot;addressList&quot;:[{&quot;id&quot;:1,&quot;street1&quot;:&quot;4th Floor, 136&quot;,&quot;street2&quot;:&quot;Sloane St&quot;,&quot;postCode&quot;:&quot;SW1X 9AY&quot;,&quot;city&quot;:{&quot;id&quot;:1,&quot;name&quot;:&quot;London&quot;}}]}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.0.2</a> at 27 Jul 2021, 13:25:51</p>
+</div>
+</div>
+</body>
+</html>
